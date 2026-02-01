@@ -108,7 +108,7 @@ body{
 
 .color{
     color: white;
-    background-color: rgb(56, 56, 248);
+    background-color: rgba(56, 56, 248, 0.352);
     padding: 150px 10px;
     width: 100%;
 }
