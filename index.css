@@ -68,7 +68,7 @@ body{
     justify-content: space-between;
     align-items: center;
     padding: 50px;
-    background-image: url("../images/background.jpg");
+    background-image: url("images/background.jpg");
     background-size: cover;
     background-position: center;
     color: hsl(0, 0%, 100%);
