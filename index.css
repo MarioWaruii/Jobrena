@@ -2,7 +2,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: "Open Sans", sans-serif;
+    font-family: "Inter", sans-serif;
 }
 :root{
     font-size: clamp(14px, 2vw, 18px);
@@ -34,21 +34,21 @@ body{
     font-weight: 600;
 }
 .links ul li a:hover{
-    color: rgb(56, 56, 248);
+    color: #4c429b;
 }
 .auth button{
     padding: 10px 30px;
-    border: 1px solid rgb(56, 56, 248);
+    border: 1px solid #4c429b;
     border-radius: 10px;
     cursor: pointer;
     font-weight: 600;
-    color: rgb(56, 56, 248);
+    color: #4c429b;
     background-color: #ffffff;
 }
 #signUp{
-    background-color: rgb(56, 56, 248);
+    background-color: #4c429b;
     color: #ffffff;
-    margin-left: 1opx;
+    margin-left: 10px;
 }
 .links img{
     width: clamp(50px, 10vw, 50px);
@@ -56,26 +56,26 @@ body{
     border-radius: 50%;
 }
 .auth button:hover{
-    background-color: rgb(56, 56, 248);
+    background-color: #4c429b;
     color: #ffffff;
 }
 #signUp:hover{
     background-color: #ffffff;
-    color: rgb(56, 56, 248);
+    color: #4c429b;
 }
 .banner{
     display: flex;
     justify-content: space-between;
     align-items: center;
     padding: 50px;
-    background-image: url('../images/pexels-cottonbro-5989926.jpg');
+    background-image: url('../images/background.jpg');
     background-size: cover;
     background-position: center;
     color: hsl(0, 0%, 100%);
     height: 70vh;
 }
 .banner-content{
-    background-color: rgba(0, 0, 0, 0.3);
+    background-color: rgba(0, 0, 0, 0.6);
     padding: 40px;
     border-radius: 15px;
 }
@@ -86,6 +86,7 @@ body{
     font-size: clamp(4rem, 5vw, 4rem);
     font-weight: 900;
     margin-bottom: 20px;
+    font-family: "Roboto Condensed", sans-serif;
 }
 .intro p{
     font-size: clamp(1rem, 2vw, 1.5rem);
@@ -97,18 +98,18 @@ body{
     font-size: clamp(1rem, 2vw, 1.2rem);
     border: none;
     border-radius: 10px;
-    background-color: rgb(56, 56, 248);
+    background-color: #4c429b;
     color: #ffffff;
     cursor: pointer;
 }
 .intro button:hover{
     background-color: #ffffff;
-    color: rgb(56, 56, 248);
+    color: #4c429b;
 }
 
-.color{
+.info{
     color: white;
-    background-color: rgba(56, 56, 248, 0.352);
+    background-color: #4c429b;
     padding: 150px 10px;
     width: 100%;
 }
@@ -117,6 +118,7 @@ body{
     margin: auto;
     display: flex;
     gap: 50px;
+    font-family: "Roboto Condensed", sans-serif !important;
 }
 .first .snd .thd{
     display: flex;
@@ -131,4 +133,86 @@ body{
 .first h1 ,.snd h1,.thd h1{
     font-size: clamp(2rem, 3vw, 2.5rem);
     margin-bottom: 20px;
+}
+.reviews{
+    background-color: #faf4e6;
+}
+.reviews h1{
+    text-align: center;
+    font-size: clamp(2rem, 3vw, 2.5rem);
+    padding: 50px 0 0 0;
+    color: #4c429b;
+
+}
+.revCard{
+    width: fit-content;
+    margin: auto;
+    display: flex;
+    flex-direction: row;
+    gap: 50px;
+    padding: 50px 0;
+}
+.userCard{
+    background-color: #ffffff;
+    padding: 30px;
+    border-radius: 15px;
+    width: clamp(250px, 30vw, 300px);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    font-weight: 500;
+}
+.userCard p{
+    margin-top: 20px;
+    font-size: clamp(0.9rem, 1.5vw, 1.2rem);
+    line-height: 1.4;
+    hyphens: auto;
+    text-align: justify;
+}
+.userCard img{
+    width: clamp(80px, 15vw, 100px);
+    height: clamp(80px, 15vw, 100px);
+    border-radius: 50%;
+    margin-bottom: 20px;
+}
+.userName{
+    font-size: clamp(1rem, 2vw, 1.5rem);
+    font-weight: 600;
+    margin-bottom: 10px;
+}
+.CTA{
+    background-color: #4c429b;
+    color: #ffffff;
+    text-align: center;
+    padding: 50px 50px;
+}
+.CTA h1{
+    font-size: clamp(2rem, 3vw, 2.5rem);
+    margin-bottom: 5px;
+}
+.CTA p{
+    font-size: clamp(1rem, 2vw, 1.5rem);
+    margin-bottom: 30px;
+    line-height: 1.5;
+}
+.CTA button{
+    padding: 10px 30px;
+    font-size: clamp(1rem, 2vw, 1.2rem);
+    border: none;
+    border-radius: 10px;
+    background-color: #ffffff;
+    color: #4c429b;
+    cursor: pointer;
+}
+.CTA button:hover{
+    background-color: #4c429b;
+    color: #ffffff;
+    border: #ffffff solid 1px;
+}
+footer{
+    background-color: #333333b5;
+    color: #ffffff;
+    text-align: center;
+    padding: 10px 0;
 }
