@@ -8,14 +8,14 @@
     font-size: clamp(14px, 2vw, 18px);
 }
 body{
-    background-color: #e4e4e4;
+    background-color: #faf4e6;
 }
 .head{
     display: flex;
     justify-content: space-between;
     align-items: center;
     padding: 20px 50px;
-    background-color: #ffffff;
+    background-color: #faf4e6cc;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
 }
 .links{
