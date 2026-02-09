@@ -4,16 +4,39 @@ body {
   margin: 0;
   padding: 20px;
 }
-
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
 .container {
   max-width: 900px;
   margin: auto;
   background: white;
   border-radius: 8px;
-  padding: 20px;
+  padding: 10px;
   box-shadow: 0 2px 8px rgba(0,0,0,0.1);
 }
+.links{
+    display: flex;
+    align-items: center;
 
+}
+.links ul{
+    list-style: none;
+    display: flex;
+    gap: 30px;
+}
+.links ul li a{
+    text-decoration: none;
+    color: #333333;
+    font-weight: 600;
+}
+.links ul li a:hover{
+    color: #4c429b;
+}
 h1 {
   text-align: center;
   color: #4c429b;
@@ -24,6 +47,7 @@ h1 {
   gap: 10px;
   justify-content: center;
   margin-bottom: 20px;
+  margin-top: 10px;
 }
 
 .filters input, .filters select {
