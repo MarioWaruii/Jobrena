@@ -45,7 +45,7 @@ body{
     color: #4c429b;
     background-color: #ffffff;
 }
-#signUp{
+#signupBtn{
     background-color: #4c429b;
     color: #ffffff;
     margin-left: 10px;
@@ -59,7 +59,7 @@ body{
     background-color: #4c429b;
     color: #ffffff;
 }
-#signUp:hover{
+#signupBtn:hover{
     background-color: #ffffff;
     color: #4c429b;
 }
